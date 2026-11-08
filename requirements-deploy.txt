@@ -1,0 +1,4 @@
+-r requirements-core.txt
+transformers==4.46.1
+tokenizers==0.20.3
+parler_tts @ git+https://github.com/huggingface/parler-tts.git

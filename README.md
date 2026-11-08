@@ -1,8 +1,18 @@
-# LinguaBridge AI (P19) — Notebook-First Reconstruction
+---
+title: LinguaBridge AI
+emoji: 🌐
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
+# LinguaBridge AI (P19)
 
 Open-source English → Hindi/Marathi translation platform based on `notebooks/LinguaBridge_AI_Development.ipynb`.
 
-## Notebook model allowlist (only these HF models)
+## Application model allowlist
 1. `Helsinki-NLP/opus-mt-en-hi`
 2. `Helsinki-NLP/opus-mt-en-mr`
 3. `Qwen/Qwen2.5-1.5B-Instruct`
@@ -41,6 +51,12 @@ For a fresh setup (including the matching PyTorch CUDA wheel and optional
 Parler-TTS dependency), follow the [Windows installation guide](docs/installation_guide.md).
 Do not launch with a different global Python; auth can work even when that
 interpreter lacks PyTorch and model inference cannot.
+
+## Deploy publicly
+
+The project includes a Docker configuration for a GPU-enabled Hugging Face
+Space. Follow the [public deployment guide](docs/deployment_guide.md) to push
+the latest code, create a public Space, and select GPU hardware.
 
 ## Hugging Face token
 Use the **Hugging Face Authentication** page. Tokens are stored **only in session state** and never written to disk by the app.
