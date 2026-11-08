@@ -19,9 +19,25 @@ git push -u origin main
 1. Sign in at [Hugging Face](https://huggingface.co/).
 2. Select **New Space** and name it, for example, `linguabridge-ai`.
 3. Choose **Docker** as the SDK and **Public** visibility.
-4. Create the Space, then upload or sync the latest GitHub project files,
-   including the root `README.md` (with the Space metadata), `.dockerignore`,
-   `Dockerfile`, and `requirements-deploy.txt`.
+4. Create the Space. On your Windows machine, authenticate to Hugging Face
+   with a write-enabled token in the terminal (do not paste it into chat):
+
+   ```powershell
+   hf auth login
+   $project = "C:\Users\DHRUV\Desktop\LinguaBridge AI – P19 Encoder–Decoder Translator"
+   $space = Join-Path $env:TEMP "linguabridge-ai-space"
+   git clone "https://huggingface.co/spaces/<HF_USERNAME>/linguabridge-ai" $space
+   robocopy $project $space /E /XD .git .venv .venv311 __pycache__ .pytest_cache /XF .env .env.* *.wav
+   Set-Location $space
+   git add --all
+   git commit -m "Deploy LinguaBridge AI"
+   git push
+   ```
+
+   Replace `<HF_USERNAME>` with your Hugging Face username. The project
+   `README.md` contains the Space metadata (`sdk: docker`, `app_port: 7860`);
+   it is copied along with `.dockerignore`, `Dockerfile`, and
+   `requirements-deploy.txt`. `robocopy` exit codes below 8 indicate success.
 5. In Space **Settings → Hardware**, select a GPU tier with enough VRAM for
    one model at a time. CUDA inference has been verified locally on a 6 GB
    RTX 4050; a larger tier gives more headroom for concurrent visitors.
