@@ -1,0 +1,21 @@
+id,domain,english,reference_hindi,reference_marathi
+BM01,Conversational,Good morning! How are you doing today?,सुप्रभात! आज आप कैसे हैं?,शुभ सकाळ! आज तुम्ही कसे आहात?
+BM02,Formal,Please submit your official application before Friday evening.,कृपया शुक्रवार शाम से पहले अपना आधिकारिक आवेदन जमा करें.,कृपया शुक्रवार संध्याकाळपूर्वी तुमचा अधिकृत अर्ज सादर करा.
+BM03,Academic,Education is the foundation of economic and social progress.,शिक्षा आर्थिक और सामाजिक प्रगति की नींव है.,शिक्षण ही आर्थिक आणि सामाजिक प्रगतीचा पाया आहे.
+BM04,Technology,Artificial intelligence is transforming industries across the world.,कृत्रिम बुद्धिमत्ता दुनिया भर के उद्योगों को बदल रही है.,कृत्रिम बुद्धिमत्ता जगभरातील उद्योगांमध्ये बदल घडवून आणत आहे.
+BM05,Medical,Drinking enough water every day is essential for good health.,अच्छे स्वास्थ्य के लिए हर दिन पर्याप्त पानी पीना आवश्यक है.,चांगल्या आरोग्यासाठी दररोज पुरेसे पाणी पिणे आवश्यक आहे.
+BM06,Daily Life,My family enjoys having dinner together on weekends.,मेरा परिवार सप्ताहांत पर एक साथ रात का खाना खाने का आनंद लेता है.,माझे कुटुंब आठवड्याच्या शेवटी एकत्र जेवण्याचा आनंद घेते.
+BM07,Travel,The express train will arrive at platform number three shortly.,एक्सप्रेस ट्रेन शीघ्र ही प्लेटफॉर्म नंबर तीन पर पहुंचेगी.,एक्सप्रेस गाडी लवकरच फलाट क्रमांक तीनवर येईल.
+BM08,Environment,Planting trees helps reduce air pollution in urban areas.,पेड़ लगाने से शहरी क्षेत्रों में वायु प्रदूषण कम करने में मदद मिलती है.,झाडे लावल्याने शहरी भागातील हवेचे प्रदूषण कमी करण्यास मदत होते.
+BM09,Business,The company announced a significant increase in quarterly revenue.,कंपनी ने त्रैमासिक राजस्व में उल्लेखनीय वृद्धि की घोषणा की.,कंपनीने त्रैमासिक महसुलात लक्षणीय वाढ जाहीर केली.
+BM10,Governance,Every citizen has the fundamental right to freedom of speech.,प्रत्येक नागरिक को भाषण की स्वतंत्रता का मौलिक अधिकार है.,प्रत्येक नागरिकाला भाषण स्वातंत्र्याचा मूलभूत हक्क आहे.
+BM11,Science,Water boils at one hundred degrees Celsius at sea level.,समुद्र तल पर पानी सौ डिग्री सेल्सियस पर उबलता है.,समुद्रसपाटीवर पाणी शंभर अंश सेल्सिअस तापमानाला उकळते.
+BM12,Culture,The traditional festival was celebrated with music and dance.,पारंपरिक त्योहार संगीत और नृत्य के साथ मनाया गया.,पारंपारिक सण संगीत आणि नृत्यासह साजरा करण्यात आला.
+BM13,Technology,Keep your passwords secure and never share them with anyone.,अपने पासवर्ड सुरक्षित रखें और उन्हें कभी किसी के साथ साझा न करें.,तुमचे पासवर्ड सुरक्षित ठेवा आणि ते कधीही कोणाशीही शेअर करू नका.
+BM14,Education,Libraries provide free access to valuable books and digital resources.,पुस्तकालय मूल्यवान पुस्तकों और डिजिटल संसाधनों तक मुफ्त पहुंच प्रदान करते हैं.,ग्रंथालये मौल्यवान पुस्तके आणि डिजिटल संसाधनांमध्ये विनामूल्य प्रवेश देतात.
+BM15,Conversational,Could you please help me find the nearest metro station?,क्या आप मुझे निकटतम मेट्रो स्टेशन खोजने में मदद कर सकते हैं?,तुम्ही मला जवळचे मेट्रो स्टेशन शोधण्यात मदत करू शकता का?
+BM16,Environment,Solar panels generate clean and renewable electrical energy.,सौर पैनल स्वच्छ और नवीकरणीय विद्युत ऊर्जा उत्पन्न करते हैं.,सौर पॅनेल स्वच्छ आणि नूतनीकरणक्षम विद्युत ऊर्जा निर्माण करतात.
+BM17,Medical,Regular physical exercise strengthens muscles and improves mental wellbeing.,नियमित शारीरिक व्यायाम मांसपेशियों को मजबूत करता है और मानसिक स्वास्थ्य में सुधार करता है.,नियमित शारीरिक व्यायाम स्नायूंना बळकट करतो आणि मानसिक स्वास्थ्य सुधारतो.
+BM18,Literature,Reading poetry encourages deep reflection and creative imagination.,कविता पढ़ना गहन विचार और रचनात्मक कल्पना को प्रोत्साहित करता है.,कविता वाचल्याने खोल विचार आणि सर्जनशील कल्पनाशक्तीला प्रोत्साहन मिळते.
+BM19,Food,The chef prepared a traditional dish using fresh local spices.,शेफ ने ताजे स्थानीय मसालों का उपयोग करके एक पारंपरिक व्यंजन तैयार किया.,शेफने ताज्या स्थानिक मसाल्यांचा वापर करून एक पारंपारिक पदार्थ तयार केला.
+BM20,Technology,Cloud computing allows users to store data securely on remote servers.,क्लाउड कंप्यूटिंग उपयोगकर्ताओं को दूरस्थ सर्वरों पर सुरक्षित रूप से डेटा संग्रहीत करने की अनुमति देता है.,क्लाउड कॉम्प्युटिंग वापरकर्त्यांना रिमोट सर्व्हरवर सुरक्षितपणे डेटा साठवण्याची परवानगी देते.

@@ -1,0 +1,4 @@
+# LinguaBridge AI — install compatible PyTorch FIRST (see docs/installation_guide.md), then:
+-r requirements-core.txt
+# Optional (may require extra build tools / large downloads):
+# -r requirements-optional.txt

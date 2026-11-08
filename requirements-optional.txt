@@ -1,0 +1,5 @@
+# Optional/heavy features (install after core + compatible torch/transformers)
+# TTS (notebook model ai4bharat/indic-parler-tts)
+parler_tts @ git+https://github.com/huggingface/parler-tts.git
+# Optional analysis used in some notebook environments
+scikit-learn>=1.4.0
